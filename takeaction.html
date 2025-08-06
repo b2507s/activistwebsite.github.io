@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!---- Add title, fonts, and css/js files ---->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Take Action-Mental Health Advocacy for Incarcerated Women</title>
+  <link href="style.css" rel="stylesheet" type="text/css" href = "https://fonts.googleapis.com/css?family=Libertinus Serif|Oswald|DM Sans|Archivo Black"/>
+  <script src="script.js"></script>
+</head>
+
+<main>
+  <!---- Navigation Bar ---->
+  <nav>
+    <ul class = "nav-bar">
+      <li class = "nav-item"><a href = "index.html">HOME</a></li>
+      <li class = "nav-item"><a href = "take_action.html">TAKE ACTION</a></li>
+    </ul>
+  </nav>
+  <body>
+    <!---- Website links ---->
+    <h1>WE NEED TO TAKE ACTION.</h1>
+    <h2>Here are some websites for further information and action:</h2>
+    <ul class = "page2list">
+      <li class = "item2"><a href = "https://www.acog.org/advocacy/policy-priorities/health-care-for-incarcerated-women">Support the efforts of the American College of Obstetricians and Gynecologists.</a></li>
+      <li class = "item2"><a href = "https://arrwip.org/">Learn more about advocacy and research from the Advocacy and Research on Reproductive Wellness of Incarcerated People.</a></li>
+      <li class = "item2"><a href = "https://www.hopkinsmedicine.org/video/reproductive-justice-behind-bars-the-hidden-need-of-incarcerated-women">Watch this video from Johns Hopkins Medicine to discover how reproductive justice is addressed for women in jail.</a></li>
+    </ul>
+
+    <!---- Button & script formation ---->
+    <h2>Generate a message to advocate for incarcerated women's health (mental wellness, reproductive health, etc) to</br>send to Congress members, officials, and activist organizations.</h2>
+
+    <div class = "scriptall">
+      <div class = "scriptEach">
+      <label for = "name">Name: </label>
+        <input type = "text" id = "myName">
+        </div>
+      </br>
+      <div class = "scriptEach">
+        <label for = "issue">Issue: (i.e. mental wellness, reproductive health) </label>
+          <input type = "text" id = "myIssue">
+      </div>
+        </br>
+      <div class = "scriptEach">
+        <label for = "recipient">To: (i.e. Congress members, officials, and activist organizations) </label>
+          <input type = "text" id = "myRecipient">
+      <div>
+        </br>
+        <button id = "textButton">See message</button>
+
+        <div class = "m1">
+          <p id = "message"></p>
+        </div>
+    </div>
+      
+  </body>
+</main>
+
+</html>
