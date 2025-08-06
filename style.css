@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*    background color and header       */ 
+h1 {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  color: darkgreen;
+  padding-top: 15px;
+  padding-bottom: 0;
+  font-size: 70px;
+}
+body {
+  background-color: pink;
+}
+img {
+  margin: auto;
+  
+}
+/*   navigation bar        */ 
+ul.nav-bar {
+  list-style-type: none;
+  text-align: right;
+  padding-right: 5px;
+  border-style: solid;
+  border-color: deeppink;
+  border-width: 3px;
+  background-color: lightgreen;
+  margin-top: 0;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+li.nav-item {
+  display: inline-block;
+  padding: 5px;
+}
+li.nav-item a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+li.nav-item a {
+  font-size: 20px;
+  color: deeppink;
+  font-family: "Archivo Black", sans-serif;
+  text-decoration: none;
+}
+/*     design for three photos in first page      */ 
+.subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 0;
+}
+.first_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap; /*keep images in one line */
+}
+.first_row_img img{
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+  flex-basis: 100%;
+  margin: 1%;
+}
+/*   making sure the images are flexible to screen size        */ 
+@media screen and (max-width: 850px){
+  .first_row {
+    flex-wrap: wrap;
+  }
+  .second_row {
+    flex-wrap: wrap;
+  }
+}
+/*    statistics on first page       */ 
+h2 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: deeppink;
+}
+.big_percentage {
+  font-family: "Archivo Black", sans-serif;
+  color: darkgreen;
+  font-size: 50px;
+  padding: 3px;
+}
+.credits {
+  text-align: center;
+  padding-top: 0;
+  font-size: 12;
+}
+/*   2 images on bottom of first page        */ 
+.second_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.second_row_img img{
+  width: 750px;
+  height: 550px;
+  padding: 0;
+
+}
+/*     designing button of facts      */ 
+#myButton {
+  border-radius: 10px;
+  border-style: none;
+  background-color: black;
+  padding: 5px;
+  color: lightgreen;
+  font-size: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#fact {
+  font-size: 30px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+}
+/*    designing websites on take action page       */ 
+.page2list {
+  list-style-type: none;
+  text-align: left;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 50px;
+  background-color: black;
+  margin-top: 0;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.item2 {
+  display: block;
+  padding: 5px;
+}
+.item2 a:hover {
+  background-color: deeppink;
+  color: white;
+}
+.item2 a {
+  font-size: 30px;
+  color: lightgreen;
+  font-family: "Archivo Black", sans-serif;
+  text-decoration: none;
+}
+/*      designing script and button on 2nd page     */ 
+.scriptall {
+  text-align: left;
+  padding: 3px;
+}
+.scriptEach {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+}
+.m1 {
+  font-size: 30px;
+  font-family: "Archivo Black", sans-serif;
+  padding: 20px;
+}
